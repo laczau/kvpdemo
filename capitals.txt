@@ -1,0 +1,165 @@
+Afghanistan Kabul
+Albania Tirana (Tirane)
+Algeria Algiers
+Andorra Andorra la Vella
+Angola Luanda
+Argentina Buenos Aires
+Armenia Yerevan
+Australia Canberra
+Austria Vienna
+Azerbaijan Baku
+Bahamas Nassau
+Bahrain Manama
+Bangladesh Dhaka
+Barbados Bridgetown
+Belarus Minsk
+Belgium Brussels
+Belize Belmopan
+Benin Porto Novo
+Bhutan Thimphu
+Bolivia La Paz
+Botswana Gaborone
+Brazil Brasilia
+Brunei Bandar Seri Begawan
+Bulgaria Sofia
+Burkina Faso Ouagadougou
+Burundi Bujumbura
+Cambodia Phnom Penh
+Cameroon Yaounde
+Canada Ottawa
+Cape Verde Praia
+Chad N'Djamena
+Chile Santiago
+China Beijing
+Colombia Bogota
+Comoros Moroni
+Croatia Zagreb
+Cuba Havana
+Cyprus Nicosia
+Denmark Copenhagen
+Djibouti Djibouti
+Dominica Roseau
+Ecuador Quito
+Egypt Cairo
+England London
+Eritrea Asmara
+Estonia Tallinn
+Ethiopia Addis Ababa
+Fiji Suva
+Finland Helsinki
+France Paris
+Gabon Libreville
+Gambia Banjul
+Georgia Tbilisi
+Germany Berlin
+Ghana Accra
+Greece Athens
+Grenada Saint George's
+Guatemala Guatemala City
+Guinea Conakry
+Guyana Georgetown
+Haiti Port au Prince
+Honduras Tegucigalpa
+Hungary Budapest
+Iceland Reykjavik
+India New Delhi
+Indonesia Jakarta
+Iran Tehran
+Iraq Baghdad
+Ireland Dublin
+Israel Tel Aviv1
+Italy Rome
+Jamaica Kingston
+Japan Tokyo
+Jordan Amman
+Kazakhstan Astana
+Kenya Nairobi
+Kiribati Tarawa Atoll
+Kosovo Pristina
+Kuwait Kuwait City
+Kyrgyzstan Bishkek
+Laos Vientiane
+Latvia Riga
+Lebanon Beirut
+Lesotho Maseru
+Liberia Monrovia
+Libya Tripoli
+Liechtenstein Vaduz
+Lithuania Vilnius
+Luxembourg Luxembourg
+Macedonia Skopje
+Madagascar Antananarivo
+Malawi Lilongwe
+Malaysia Kuala Lumpur
+Maldives Male
+Mali Bamako
+Malta Valletta
+Mauritania Nouakchott
+Mauritius Port Louis
+Mexico Mexico City
+Moldova Chisinau
+Monaco Monaco
+Mongolia Ulaanbaatar
+Montenegro Podgorica
+Morocco Rabat
+Mozambique Maputo
+Myanmar Nay Pyi Taw2
+Namibia Windhoek
+Nepal Kathmandu
+Netherlands Amsterdam
+Nicaragua Managua
+Niger Niamey
+Nigeria Abuja
+Norway Oslo
+Oman Muscat
+Pakistan Islamabad
+Palau Melekeok
+Panama Panama City
+Paraguay Asuncion
+Peru Lima
+Philippines Manila
+Poland Warsaw
+Portugal Lisbon
+Qatar Doha
+Romania Bucharest
+Russia Moscow
+Rwanda Kigali
+Samoa Apia
+Scotland Edinburgh
+Senegal Dakar
+Serbia Belgrade
+Seychelles Victoria
+Singapore Singapore
+Slovakia Bratislava
+Slovenia Ljubljana
+Somalia Mogadishu
+South Korea Seoul
+South Sudan Juba
+Spain Madrid
+Sudan Khartoum
+Suriname Paramaribo
+Swaziland Mbabana
+Sweden Stockholm
+Switzerland Bern
+Syria Damascus
+Taiwan Taipei
+Tajikistan Dushanbe
+Tanzania Dodoma3
+Thailand Bangkok
+Togo Lome
+Tonga Nuku'alofa
+Tunisia Tunis
+Turkey Ankara
+Turkmenistan Ashgabat
+Tuvalu Funafuti4
+Uganda Kampala
+Ukraine Kiev
+Uruguay Montevideo
+Uzbekistan Tashkent
+Vanuatu Port Vila
+Venezuela Caracas
+Vietnam Hanoi
+Wales Cardiff
+Yemen Sanaa
+Zambia Lusaka
+Zimbabwe Harare

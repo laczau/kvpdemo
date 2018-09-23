@@ -1,0 +1,84 @@
+====================================================================================================
+  KVP demo project
+====================================================================================================
+
+This project contains 2 applications, a server and a client app
+to demonstrate client-sever communication using GNU libc.
+Server has a KVP (key-value pair) database which can be
+queried or updated by the clients.
+
+The following tools were used:
+
+ GNU Make 4.1
+ gcc 7.3.0 (on ubuntu)
+ glibc 2.27
+
+----------------------------------------------------------------------------------------------------
+  How to compile the project
+----------------------------------------------------------------------------------------------------
+
+  server : [clean|all|build|rebuild] make app=server [strict=yes]
+
+            if the server is compiled with the 'strict=yes' parameter,
+            it won't allow clients to overwrite the values of existing keys.
+
+
+  client : [clean|all|build|rebuild] make app=client
+
+----------------------------------------------------------------------------------------------------
+  How to use the application
+----------------------------------------------------------------------------------------------------
+
+  server : ./kpv_server [-p portnum] [-f filename]
+
+            cmdline args are optional, if they are not provided, default
+            values will be used.
+            ports can be used from [1024..65535] range
+              
+            default port: 5555
+            default file: capitals.txt (contains countries with their capitals as key-value pairs)
+
+            the server handles 3 different commands:
+
+              'GET key'       - returns the associated value of the key
+              'PUT key value' - saves a new KVP, or overwrites an existing
+                                key's value (see 'strict=yes' macro)
+              'bye'           - disconnects the client
+
+            restrictions & information:
+            --------------------------
+            - commands (GET, PUT, bye) are not case sensitive, but each request must start with
+              the command.
+            - keys are case sensitive
+            - new KVPs are stored only in RAM, all information is lost after server shutdown
+            - key and value lengths are restricted to 16 and 32 characters
+            - keys can contain only letters and digits, values can contain any character
+            - at startup the registry file is loaded into RAM; in case of any problem, the
+              server terminates with an error message.
+
+            example:
+            -------
+            ./kvp_server -p6667
+
+                * KVP Registry has been loaded
+                * Server is started and listening on port 6667
+                * Client connected from host 127.0.0.1:35090
+                * Client disconnected from host 127.0.0.1:35090
+
+
+  client :  ./kvp_client -a hostname -p portnum [-m] [-c "command"]
+    
+            -a address - eg: -a localhost
+            -p portnum - eg: -p 5555 (ports can be used from [1024..65535] range)
+            -m         - MANUAL mode (user can send commands to the server
+                                      from the standard input like from telnet)
+            -c "cmd"   - SINGLE mode (client executes the given command
+                                      reads the response and terminates)
+
+            client can run either in MANUAL or SINGLE mode. The default is MANUAL.
+
+            example:
+            -------
+            ./kvp_client -alocalhost -p6667 -c "GET Hungary"
+
+                SERVER: [Hungary] => [Budapest]
