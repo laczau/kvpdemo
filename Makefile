@@ -1,4 +1,4 @@
-# list of modules to be compipled
+# list of modules to be compiled
 CLIENT_MODULES  := client
 SERVER_MODULES  := server keyregistry
 
